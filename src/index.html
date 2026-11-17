@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#0d9488" />
+  <title>少词多用 · 英语听说</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- 顶部栏 -->
+    <header class="topbar" id="topbar">
+      <div class="topbar-inner">
+        <button class="icon-btn back-btn hidden" id="backBtn" aria-label="返回">
+          <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="brand" id="brand">
+          <span class="brand-mark">少</span>
+          <span class="brand-text">少词多用</span>
+        </div>
+        <div class="top-title hidden" id="topTitle"></div>
+      </div>
+    </header>
+
+    <!-- 首页：场景列表 -->
+    <main class="page" id="homePage">
+      <section class="hero">
+        <div class="hero-badge">用最少的词 · 表达最多的意思</div>
+        <h1>开口说英语<br/><span>从一句开始</span></h1>
+        <p class="hero-sub">学会一个万能句，换个词就能应对十种情况。</p>
+        <div class="hero-stats">
+          <div class="stat"><b id="statScenes">10</b><span>个场景</span></div>
+          <div class="stat"><b id="statSentences">300</b><span>句话</span></div>
+          <div class="stat"><b id="statLearned">0</b><span>已练习</span></div>
+        </div>
+      </section>
+
+      <!-- 高频词入口 -->
+      <div class="quick-entry" id="wordEntry">
+        <div class="quick-entry-icon">🔤</div>
+        <div class="quick-entry-body">
+          <div class="quick-entry-title">高频词速查 <span class="quick-badge">英式</span></div>
+          <div class="quick-entry-desc">所有场景通用的高频单词 · 音标 + 中文 + 发音</div>
+        </div>
+        <svg viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
+      </div>
+
+      <div class="section-label">场景练习</div>
+      <div class="filter-bar" id="filterBar">
+        <button class="filter-chip active" data-filter="all">全部</button>
+        <button class="filter-chip" data-filter="daily">日常</button>
+        <button class="filter-chip" data-filter="travel">出行</button>
+      </div>
+
+      <section class="scene-grid" id="sceneGrid"></section>
+
+      <div class="home-foot">完全离线 · 无需联网 · 数据只存本地</div>
+    </main>
+
+    <!-- 高频词页 -->
+    <main class="page hidden" id="wordsPage">
+      <div class="words-search-bar">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
+        <input type="text" id="wordSearch" placeholder="搜索单词或中文…" autocomplete="off" />
+      </div>
+      <div class="words-group-tabs" id="wordGroupTabs"></div>
+      <div id="wordGroups"></div>
+    </main>
+
+    <!-- 场景页 -->
+    <main class="page hidden" id="scenePage">
+      <div class="scene-head" id="sceneHead"></div>
+      <div class="tabs" id="sceneTabs">
+        <button class="tab active" data-tab="patterns">万能句</button>
+        <button class="tab" data-tab="dialogue">逐句练</button>
+        <button class="tab" data-tab="vocab">场景词</button>
+        <button class="tab" data-tab="exercise">小练习</button>
+      </div>
+
+      <!-- 万能句 -->
+      <section class="tab-panel" id="panel-patterns">
+        <p class="panel-hint">点下面的词，塞进句子空位，立刻拼出一句能用的话。</p>
+        <div id="patternList"></div>
+      </section>
+
+      <!-- 逐句练 -->
+      <section class="tab-panel hidden" id="panel-dialogue">
+        <div class="dialogue-toolbar">
+          <span class="progress-label" id="dlgProgress">1 / 30</span>
+          <div class="speed-toggle">
+            <button class="speed-btn active" data-speed="normal">正常</button>
+            <button class="speed-btn" data-speed="slow">慢速</button>
+          </div>
+        </div>
+        <div class="progress-track"><div class="progress-fill" id="dlgProgressFill"></div></div>
+        <div id="dialogueCard"></div>
+        <div class="dialogue-nav">
+          <button class="nav-btn" id="prevTurn">← 上一句</button>
+          <button class="nav-btn primary" id="nextTurn">下一句 →</button>
+        </div>
+      </section>
+
+      <!-- 场景词 -->
+      <section class="tab-panel hidden" id="panel-vocab">
+        <p class="panel-hint">这个场景里常见、但对话中不一定出现的物品和标识。点 🔊 听英式发音。</p>
+        <div class="vocab-search-bar">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
+          <input type="text" id="vocabSearch" placeholder="搜索单词或中文…" autocomplete="off" />
+        </div>
+        <div id="vocabGroups"></div>
+      </section>
+
+      <!-- 小练习 -->
+      <section class="tab-panel hidden" id="panel-exercise">
+        <div id="exerciseList"></div>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

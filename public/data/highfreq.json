@@ -1,0 +1,714 @@
+{
+  "version": 1,
+  "meta": {
+    "title": "跨场景高频词",
+    "accent": "British (RP)",
+    "description": "所有日常场景都会反复出现的高频单词，带英式音标和中文"
+  },
+  "groups": [
+    {
+      "id": "polite",
+      "title": "礼貌开口",
+      "icon": "👋",
+      "words": [
+        {
+          "w": "please",
+          "ipa": "/pliːz/",
+          "zh": "请",
+          "audio": "assets/words/word_00_00_please.mp3"
+        },
+        {
+          "w": "thank you",
+          "ipa": "/ˈθæŋk juː/",
+          "zh": "谢谢",
+          "audio": "assets/words/word_00_01_thank-you.mp3"
+        },
+        {
+          "w": "sorry",
+          "ipa": "/ˈsɒri/",
+          "zh": "对不起",
+          "audio": "assets/words/word_00_02_sorry.mp3"
+        },
+        {
+          "w": "excuse me",
+          "ipa": "/ɪkˈskjuːz miː/",
+          "zh": "打扰一下",
+          "audio": "assets/words/word_00_03_excuse-me.mp3"
+        },
+        {
+          "w": "you're welcome",
+          "ipa": "/jɔː ˈwelkəm/",
+          "zh": "不客气",
+          "audio": "assets/words/word_00_04_you-re-welcome.mp3"
+        },
+        {
+          "w": "no problem",
+          "ipa": "/nəʊ ˈprɒbləm/",
+          "zh": "没问题",
+          "audio": "assets/words/word_00_05_no-problem.mp3"
+        },
+        {
+          "w": "yes",
+          "ipa": "/jes/",
+          "zh": "是的",
+          "audio": "assets/words/word_00_06_yes.mp3"
+        },
+        {
+          "w": "no",
+          "ipa": "/nəʊ/",
+          "zh": "不",
+          "audio": "assets/words/word_00_07_no.mp3"
+        },
+        {
+          "w": "OK",
+          "ipa": "/ˌəʊ ˈkeɪ/",
+          "zh": "好的",
+          "audio": "assets/words/word_00_08_ok.mp3"
+        },
+        {
+          "w": "hello",
+          "ipa": "/həˈləʊ/",
+          "zh": "你好",
+          "audio": "assets/words/word_00_09_hello.mp3"
+        },
+        {
+          "w": "goodbye",
+          "ipa": "/ˌɡʊdˈbaɪ/",
+          "zh": "再见",
+          "audio": "assets/words/word_00_10_goodbye.mp3"
+        },
+        {
+          "w": "have a nice day",
+          "ipa": "/hæv ə naɪs deɪ/",
+          "zh": "祝你愉快",
+          "audio": "assets/words/word_00_11_have-a-nice-day.mp3"
+        }
+      ]
+    },
+    {
+      "id": "verbs",
+      "title": "核心动词",
+      "icon": "🔑",
+      "words": [
+        {
+          "w": "want",
+          "ipa": "/wɒnt/",
+          "zh": "想要",
+          "audio": "assets/words/word_01_00_want.mp3"
+        },
+        {
+          "w": "need",
+          "ipa": "/niːd/",
+          "zh": "需要",
+          "audio": "assets/words/word_01_01_need.mp3"
+        },
+        {
+          "w": "have",
+          "ipa": "/hæv/",
+          "zh": "有；得到",
+          "audio": "assets/words/word_01_02_have.mp3"
+        },
+        {
+          "w": "get",
+          "ipa": "/ɡet/",
+          "zh": "拿；得到",
+          "audio": "assets/words/word_01_03_get.mp3"
+        },
+        {
+          "w": "give",
+          "ipa": "/ɡɪv/",
+          "zh": "给",
+          "audio": "assets/words/word_01_04_give.mp3"
+        },
+        {
+          "w": "take",
+          "ipa": "/teɪk/",
+          "zh": "拿；买下",
+          "audio": "assets/words/word_01_05_take.mp3"
+        },
+        {
+          "w": "make",
+          "ipa": "/meɪk/",
+          "zh": "做；制作",
+          "audio": "assets/words/word_01_06_make.mp3"
+        },
+        {
+          "w": "do",
+          "ipa": "/duː/",
+          "zh": "做",
+          "audio": "assets/words/word_01_07_do.mp3"
+        },
+        {
+          "w": "go",
+          "ipa": "/ɡəʊ/",
+          "zh": "去",
+          "audio": "assets/words/word_01_08_go.mp3"
+        },
+        {
+          "w": "come",
+          "ipa": "/kʌm/",
+          "zh": "来",
+          "audio": "assets/words/word_01_09_come.mp3"
+        },
+        {
+          "w": "like",
+          "ipa": "/laɪk/",
+          "zh": "喜欢",
+          "audio": "assets/words/word_01_10_like.mp3"
+        },
+        {
+          "w": "know",
+          "ipa": "/nəʊ/",
+          "zh": "知道",
+          "audio": "assets/words/word_01_11_know.mp3"
+        },
+        {
+          "w": "find",
+          "ipa": "/faɪnd/",
+          "zh": "找到",
+          "audio": "assets/words/word_01_12_find.mp3"
+        },
+        {
+          "w": "pay",
+          "ipa": "/peɪ/",
+          "zh": "付款",
+          "audio": "assets/words/word_01_13_pay.mp3"
+        },
+        {
+          "w": "buy",
+          "ipa": "/baɪ/",
+          "zh": "买",
+          "audio": "assets/words/word_01_14_buy.mp3"
+        },
+        {
+          "w": "help",
+          "ipa": "/help/",
+          "zh": "帮助",
+          "audio": "assets/words/word_01_15_help.mp3"
+        },
+        {
+          "w": "work",
+          "ipa": "/wɜːk/",
+          "zh": "工作；奏效",
+          "audio": "assets/words/word_01_16_work.mp3"
+        },
+        {
+          "w": "use",
+          "ipa": "/juːz/",
+          "zh": "使用",
+          "audio": "assets/words/word_01_17_use.mp3"
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "title": "提问万能词",
+      "icon": "❓",
+      "words": [
+        {
+          "w": "what",
+          "ipa": "/wɒt/",
+          "zh": "什么",
+          "audio": "assets/words/word_02_00_what.mp3"
+        },
+        {
+          "w": "where",
+          "ipa": "/weə(r)/",
+          "zh": "哪里",
+          "audio": "assets/words/word_02_01_where.mp3"
+        },
+        {
+          "w": "when",
+          "ipa": "/wen/",
+          "zh": "什么时候",
+          "audio": "assets/words/word_02_02_when.mp3"
+        },
+        {
+          "w": "why",
+          "ipa": "/waɪ/",
+          "zh": "为什么",
+          "audio": "assets/words/word_02_03_why.mp3"
+        },
+        {
+          "w": "who",
+          "ipa": "/huː/",
+          "zh": "谁",
+          "audio": "assets/words/word_02_04_who.mp3"
+        },
+        {
+          "w": "how",
+          "ipa": "/haʊ/",
+          "zh": "怎么",
+          "audio": "assets/words/word_02_05_how.mp3"
+        },
+        {
+          "w": "how much",
+          "ipa": "/haʊ mʌtʃ/",
+          "zh": "多少钱；多少",
+          "audio": "assets/words/word_02_06_how-much.mp3"
+        },
+        {
+          "w": "how many",
+          "ipa": "/haʊ ˈmeni/",
+          "zh": "多少个",
+          "audio": "assets/words/word_02_07_how-many.mp3"
+        },
+        {
+          "w": "which",
+          "ipa": "/wɪtʃ/",
+          "zh": "哪一个",
+          "audio": "assets/words/word_02_08_which.mp3"
+        },
+        {
+          "w": "can",
+          "ipa": "/kæn/",
+          "zh": "能；可以",
+          "audio": "assets/words/word_02_09_can.mp3"
+        },
+        {
+          "w": "is it",
+          "ipa": "/ɪz ɪt/",
+          "zh": "是吗（单数）",
+          "audio": "assets/words/word_02_10_is-it.mp3"
+        },
+        {
+          "w": "are they",
+          "ipa": "/ɑː ðeɪ/",
+          "zh": "是吗（复数）",
+          "audio": "assets/words/word_02_11_are-they.mp3"
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "title": "钱与价格",
+      "icon": "💷",
+      "words": [
+        {
+          "w": "money",
+          "ipa": "/ˈmʌni/",
+          "zh": "钱",
+          "audio": "assets/words/word_03_00_money.mp3"
+        },
+        {
+          "w": "price",
+          "ipa": "/praɪs/",
+          "zh": "价格",
+          "audio": "assets/words/word_03_01_price.mp3"
+        },
+        {
+          "w": "cheap",
+          "ipa": "/tʃiːp/",
+          "zh": "便宜的",
+          "audio": "assets/words/word_03_02_cheap.mp3"
+        },
+        {
+          "w": "expensive",
+          "ipa": "/ɪkˈspensɪv/",
+          "zh": "昂贵的",
+          "audio": "assets/words/word_03_03_expensive.mp3"
+        },
+        {
+          "w": "free",
+          "ipa": "/friː/",
+          "zh": "免费的",
+          "audio": "assets/words/word_03_04_free.mp3"
+        },
+        {
+          "w": "cash",
+          "ipa": "/kæʃ/",
+          "zh": "现金",
+          "audio": "assets/words/word_03_05_cash.mp3"
+        },
+        {
+          "w": "card",
+          "ipa": "/kɑːd/",
+          "zh": "银行卡",
+          "audio": "assets/words/word_03_06_card.mp3"
+        },
+        {
+          "w": "change",
+          "ipa": "/tʃeɪndʒ/",
+          "zh": "零钱；找零",
+          "audio": "assets/words/word_03_07_change.mp3"
+        },
+        {
+          "w": "receipt",
+          "ipa": "/rɪˈsiːt/",
+          "zh": "收据；小票",
+          "audio": "assets/words/word_03_08_receipt.mp3"
+        },
+        {
+          "w": "discount",
+          "ipa": "/ˈdɪskaʊnt/",
+          "zh": "折扣",
+          "audio": "assets/words/word_03_09_discount.mp3"
+        },
+        {
+          "w": "dollar",
+          "ipa": "/ˈdɒlə(r)/",
+          "zh": "美元",
+          "audio": "assets/words/word_03_10_dollar.mp3"
+        },
+        {
+          "w": "pound",
+          "ipa": "/paʊnd/",
+          "zh": "英镑",
+          "audio": "assets/words/word_03_11_pound.mp3"
+        },
+        {
+          "w": "pay",
+          "ipa": "/peɪ/",
+          "zh": "支付",
+          "audio": "assets/words/word_03_12_pay.mp3"
+        },
+        {
+          "w": "cost",
+          "ipa": "/kɒst/",
+          "zh": "花费",
+          "audio": "assets/words/word_03_13_cost.mp3"
+        }
+      ]
+    },
+    {
+      "id": "place",
+      "title": "方向与位置",
+      "icon": "📍",
+      "words": [
+        {
+          "w": "here",
+          "ipa": "/hɪə(r)/",
+          "zh": "这里",
+          "audio": "assets/words/word_04_00_here.mp3"
+        },
+        {
+          "w": "there",
+          "ipa": "/ðeə(r)/",
+          "zh": "那里",
+          "audio": "assets/words/word_04_01_there.mp3"
+        },
+        {
+          "w": "right",
+          "ipa": "/raɪt/",
+          "zh": "右边；对的",
+          "audio": "assets/words/word_04_02_right.mp3"
+        },
+        {
+          "w": "left",
+          "ipa": "/left/",
+          "zh": "左边",
+          "audio": "assets/words/word_04_03_left.mp3"
+        },
+        {
+          "w": "near",
+          "ipa": "/nɪə(r)/",
+          "zh": "附近",
+          "audio": "assets/words/word_04_04_near.mp3"
+        },
+        {
+          "w": "far",
+          "ipa": "/fɑː(r)/",
+          "zh": "远",
+          "audio": "assets/words/word_04_05_far.mp3"
+        },
+        {
+          "w": "next to",
+          "ipa": "/ˈnekst tuː/",
+          "zh": "紧挨着",
+          "audio": "assets/words/word_04_06_next-to.mp3"
+        },
+        {
+          "w": "opposite",
+          "ipa": "/ˈɒpəzɪt/",
+          "zh": "对面",
+          "audio": "assets/words/word_04_07_opposite.mp3"
+        },
+        {
+          "w": "straight",
+          "ipa": "/streɪt/",
+          "zh": "直的",
+          "audio": "assets/words/word_04_08_straight.mp3"
+        },
+        {
+          "w": "over there",
+          "ipa": "/ˈəʊvə(r) ðeə(r)/",
+          "zh": "在那边",
+          "audio": "assets/words/word_04_09_over-there.mp3"
+        },
+        {
+          "w": "back",
+          "ipa": "/bæk/",
+          "zh": "后面",
+          "audio": "assets/words/word_04_10_back.mp3"
+        },
+        {
+          "w": "front",
+          "ipa": "/frʌnt/",
+          "zh": "前面",
+          "audio": "assets/words/word_04_11_front.mp3"
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "title": "时间与数量",
+      "icon": "🕐",
+      "words": [
+        {
+          "w": "now",
+          "ipa": "/naʊ/",
+          "zh": "现在",
+          "audio": "assets/words/word_05_00_now.mp3"
+        },
+        {
+          "w": "today",
+          "ipa": "/təˈdeɪ/",
+          "zh": "今天",
+          "audio": "assets/words/word_05_01_today.mp3"
+        },
+        {
+          "w": "tomorrow",
+          "ipa": "/təˈmɒrəʊ/",
+          "zh": "明天",
+          "audio": "assets/words/word_05_02_tomorrow.mp3"
+        },
+        {
+          "w": "yesterday",
+          "ipa": "/ˈjestədeɪ/",
+          "zh": "昨天",
+          "audio": "assets/words/word_05_03_yesterday.mp3"
+        },
+        {
+          "w": "time",
+          "ipa": "/taɪm/",
+          "zh": "时间",
+          "audio": "assets/words/word_05_04_time.mp3"
+        },
+        {
+          "w": "minute",
+          "ipa": "/ˈmɪnɪt/",
+          "zh": "分钟",
+          "audio": "assets/words/word_05_05_minute.mp3"
+        },
+        {
+          "w": "hour",
+          "ipa": "/ˈaʊə(r)/",
+          "zh": "小时",
+          "audio": "assets/words/word_05_06_hour.mp3"
+        },
+        {
+          "w": "one",
+          "ipa": "/wʌn/",
+          "zh": "一",
+          "audio": "assets/words/word_05_07_one.mp3"
+        },
+        {
+          "w": "two",
+          "ipa": "/tuː/",
+          "zh": "二",
+          "audio": "assets/words/word_05_08_two.mp3"
+        },
+        {
+          "w": "first",
+          "ipa": "/fɜːst/",
+          "zh": "第一",
+          "audio": "assets/words/word_05_09_first.mp3"
+        },
+        {
+          "w": "a little",
+          "ipa": "/ə ˈlɪtl/",
+          "zh": "一点",
+          "audio": "assets/words/word_05_10_a-little.mp3"
+        },
+        {
+          "w": "a lot",
+          "ipa": "/ə lɒt/",
+          "zh": "很多",
+          "audio": "assets/words/word_05_11_a-lot.mp3"
+        }
+      ]
+    },
+    {
+      "id": "describe",
+      "title": "常用形容词",
+      "icon": "✨",
+      "words": [
+        {
+          "w": "good",
+          "ipa": "/ɡʊd/",
+          "zh": "好的",
+          "audio": "assets/words/word_06_00_good.mp3"
+        },
+        {
+          "w": "bad",
+          "ipa": "/bæd/",
+          "zh": "坏的",
+          "audio": "assets/words/word_06_01_bad.mp3"
+        },
+        {
+          "w": "big",
+          "ipa": "/bɪɡ/",
+          "zh": "大的",
+          "audio": "assets/words/word_06_02_big.mp3"
+        },
+        {
+          "w": "small",
+          "ipa": "/smɔːl/",
+          "zh": "小的",
+          "audio": "assets/words/word_06_03_small.mp3"
+        },
+        {
+          "w": "nice",
+          "ipa": "/naɪs/",
+          "zh": "好的；友好的",
+          "audio": "assets/words/word_06_04_nice.mp3"
+        },
+        {
+          "w": "hot",
+          "ipa": "/hɒt/",
+          "zh": "热的；辣的",
+          "audio": "assets/words/word_06_05_hot.mp3"
+        },
+        {
+          "w": "cold",
+          "ipa": "/kəʊld/",
+          "zh": "冷的",
+          "audio": "assets/words/word_06_06_cold.mp3"
+        },
+        {
+          "w": "fresh",
+          "ipa": "/freʃ/",
+          "zh": "新鲜的",
+          "audio": "assets/words/word_06_07_fresh.mp3"
+        },
+        {
+          "w": "new",
+          "ipa": "/njuː/",
+          "zh": "新的",
+          "audio": "assets/words/word_06_08_new.mp3"
+        },
+        {
+          "w": "old",
+          "ipa": "/əʊld/",
+          "zh": "旧的；老的",
+          "audio": "assets/words/word_06_09_old.mp3"
+        },
+        {
+          "w": "ready",
+          "ipa": "/ˈredi/",
+          "zh": "准备好的",
+          "audio": "assets/words/word_06_10_ready.mp3"
+        },
+        {
+          "w": "open",
+          "ipa": "/ˈəʊpən/",
+          "zh": "开着的",
+          "audio": "assets/words/word_06_11_open.mp3"
+        },
+        {
+          "w": "closed",
+          "ipa": "/kləʊzd/",
+          "zh": "关着的",
+          "audio": "assets/words/word_06_12_closed.mp3"
+        },
+        {
+          "w": "fine",
+          "ipa": "/faɪn/",
+          "zh": "不错的；可以",
+          "audio": "assets/words/word_06_13_fine.mp3"
+        }
+      ]
+    },
+    {
+      "id": "nouns",
+      "title": "场景常见名词",
+      "icon": "🛍️",
+      "words": [
+        {
+          "w": "water",
+          "ipa": "/ˈwɔːtə(r)/",
+          "zh": "水",
+          "audio": "assets/words/word_07_00_water.mp3"
+        },
+        {
+          "w": "bag",
+          "ipa": "/bæɡ/",
+          "zh": "袋子",
+          "audio": "assets/words/word_07_01_bag.mp3"
+        },
+        {
+          "w": "ticket",
+          "ipa": "/ˈtɪkɪt/",
+          "zh": "票",
+          "audio": "assets/words/word_07_02_ticket.mp3"
+        },
+        {
+          "w": "phone",
+          "ipa": "/fəʊn/",
+          "zh": "电话；手机",
+          "audio": "assets/words/word_07_03_phone.mp3"
+        },
+        {
+          "w": "room",
+          "ipa": "/ruːm/",
+          "zh": "房间",
+          "audio": "assets/words/word_07_04_room.mp3"
+        },
+        {
+          "w": "table",
+          "ipa": "/ˈteɪbl/",
+          "zh": "桌子",
+          "audio": "assets/words/word_07_05_table.mp3"
+        },
+        {
+          "w": "food",
+          "ipa": "/fuːd/",
+          "zh": "食物",
+          "audio": "assets/words/word_07_06_food.mp3"
+        },
+        {
+          "w": "drink",
+          "ipa": "/drɪŋk/",
+          "zh": "饮料",
+          "audio": "assets/words/word_07_07_drink.mp3"
+        },
+        {
+          "w": "car",
+          "ipa": "/kɑː(r)/",
+          "zh": "汽车",
+          "audio": "assets/words/word_07_08_car.mp3"
+        },
+        {
+          "w": "train",
+          "ipa": "/treɪn/",
+          "zh": "火车",
+          "audio": "assets/words/word_07_09_train.mp3"
+        },
+        {
+          "w": "airport",
+          "ipa": "/ˈeəpɔːt/",
+          "zh": "机场",
+          "audio": "assets/words/word_07_10_airport.mp3"
+        },
+        {
+          "w": "hotel",
+          "ipa": "/həʊˈtel/",
+          "zh": "酒店",
+          "audio": "assets/words/word_07_11_hotel.mp3"
+        },
+        {
+          "w": "shop",
+          "ipa": "/ʃɒp/",
+          "zh": "商店",
+          "audio": "assets/words/word_07_12_shop.mp3"
+        },
+        {
+          "w": "station",
+          "ipa": "/ˈsteɪʃn/",
+          "zh": "车站",
+          "audio": "assets/words/word_07_13_station.mp3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">少词多用英语</string>
+    <string name="title_activity_main">少词多用英语</string>
+    <string name="package_name">com.english.words</string>
+    <string name="custom_url_scheme">com.english.words</string>
+</resources>
